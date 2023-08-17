@@ -1,0 +1,17 @@
+/* Navbar.css */
+
+/* Add red line under the text when hovering over the nav links */
+.navbar-nav .nav-link:hover {
+    position: relative;
+  }
+  
+  .navbar-nav .nav-link:hover::after {
+    content: '';
+    position: absolute;
+    bottom: -2px; /* Adjust the distance of the red line from the text */
+    left: 0;
+    width: 100%;
+    height: 2px; /* Height of the red line */
+    background-color: red; /* Red color for the line */
+  }
+  
