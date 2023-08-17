@@ -1,0 +1,9 @@
+@keyframes progressBarAnimation {
+  0% {
+    width: 0;
+  }
+}
+
+.progress-bar.animated {
+  animation: progressBarAnimation 1s ease-out;
+}
